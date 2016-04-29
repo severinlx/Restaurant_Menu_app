@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+    <Button
+        android:id="@+id/btnRetrieve"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDisplayMenu"
+        android:text="Display all menu" />
+    <Button
+        android:id="@+id/btnMain"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDisplayMain"
+        android:text="Display main" />
+    <Button
+        android:id="@+id/btnAppetizer"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDisplayAppetizer"
+        android:text="Display appetizer" />
+    <Button
+        android:id="@+id/btnDrink"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClickDisplayDrink"
+        android:text="Display drinks" />
+
+    <TextView
+        android:id="@+id/res"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:clickable="false"
+        android:ems="10" >
+    </TextView>
+</LinearLayout>
